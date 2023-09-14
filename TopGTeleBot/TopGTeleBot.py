@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import webbrowser
 import sqlite3
-import TopGTeleBot.config as config
+import TopGTeleBot.config as config #ksjrng
 
 
 bot = telebot.TeleBot(config.BOT_TOKEN)
