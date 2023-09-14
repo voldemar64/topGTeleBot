@@ -1,8 +1,8 @@
 import telebot
 from telebot import types
 import webbrowser
-import sqlite3
-import TopGTeleBot.config as config #ksjrng
+import sqlite3 #sdlrghaeiguhzisnaljkesfnaljwbv
+#import TopGTeleBot.config as config #ksjrng
 
 
 bot = telebot.TeleBot(config.BOT_TOKEN)
@@ -47,6 +47,7 @@ def user_pass(message):
     btn3 = types.KeyboardButton('Edit photo')
     btn4 = types.KeyboardButton('Delete photo')
     btn5 = types.KeyboardButton('Payment')
+    btn6 = types.KeyboardButton('Payment')
     
     markup.row(btn1, btn2)
     markup.row(btn3, btn4)
